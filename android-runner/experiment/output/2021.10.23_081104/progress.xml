@@ -1,0 +1,25 @@
+<experiment>
+  <configHash>84786f1c859e9186f90d504d57e66149</configHash>
+  <outputDir>/home/pi/external_memory/android-runner/experiment/output/2021.10.23_081104/</outputDir>
+  <runsToRun>
+    <run runId="0">
+      <device>j7duo2</device>
+      <path>https://google.com/</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="1">
+      <device>j7duo2</device>
+      <path>https://apple.com/</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="2">
+      <device>j7duo2</device>
+      <path>https://wikipedia.com/</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+  </runsToRun>
+  <runsDone/>
+</experiment>

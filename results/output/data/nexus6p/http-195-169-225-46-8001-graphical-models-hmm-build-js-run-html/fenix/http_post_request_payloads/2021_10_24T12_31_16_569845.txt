@@ -1,0 +1,1 @@
+{"status":1,"options":"bwa_hmm(n,512,,)","time":27.511}

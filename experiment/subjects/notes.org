@@ -1,0 +1,52 @@
+* NQueens
+** Parameters
+   n = 16
+** Runs
+   11 runs
+
+   chrome: 13 sec
+   ff: 32 sec
+   
+* lud
+  chrome 9 sec
+  ff: 9 sec
+  
+* nw
+  chrome: 4 sec
+  ff: 8 sec
+
+  
+  
+* hmm
+  chrome: 30 sec
+  ff: 24 sec
+
+  
+* bfs
+  chrome: 4 sec
+  ff: 9 sec
+
+  
+* page-rank
+  chrome: 26 sec
+  ff: 23 sec
+
+* lavamd
+  chrome: 10 sec
+  ff: 7 sec
+
+  
+* SPMV
+  TODO
+  result = JSON.stringify(spmvRun(30000, 1000, 0.01, 50));
+  chrome: 3 sec
+  ff: 4 sec
+
+
+* fft
+  chrome: 9 sec
+  ff: 8 sec
+
+* backprop
+  chrome: 12 sec
+  ff: 7 sec

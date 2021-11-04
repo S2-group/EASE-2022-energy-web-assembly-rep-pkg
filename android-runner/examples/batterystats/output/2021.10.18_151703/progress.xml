@@ -1,0 +1,13 @@
+<experiment>
+  <configHash>d7e8c978bc9c16af61b5fdde2373a45a</configHash>
+  <outputDir>/home/pi/android-runner/examples/batterystats/output/2021.10.18_151703/</outputDir>
+  <runsToRun/>
+  <runsDone>
+    <run runId="0">
+      <device>nexus6p</device>
+      <path>https://www.google.com</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+  </runsDone>
+</experiment>

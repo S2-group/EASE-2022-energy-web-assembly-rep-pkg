@@ -1,0 +1,23 @@
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title></title>
+</head>
+<body>
+    <script src='../../../../common/common_rand.js'></script>
+	<!--PREAMBLE-->
+	<script src='./FILENAME.js'></script>
+	<script type='text/javascript'>
+        var result;
+        for (i = 0; i < NUM_REPETITIONS; i++) {
+		    result = JSON.stringify(RUN_ARGUMENT);
+        }
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.open("POST", "http://195.169.225.46:8000", true);
+        xmlhttp.send(result);
+        console.log("===DONE===");
+                // xmlhttp.open("GET", "/asmjs/" + result, false);
+                // xmlhttp.send();
+	</script>
+</body>
+</html>

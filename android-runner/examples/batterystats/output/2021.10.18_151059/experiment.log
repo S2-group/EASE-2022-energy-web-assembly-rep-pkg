@@ -1,0 +1,352 @@
+2021-10-18 15:10:59,771:INFO:ExperimentFactory:/home/pi/android-runner/examples/batterystats/config_web.json
+2021-10-18 15:10:59,816:DEBUG:AndroidRunner.Adb:Device list:
+{0: 'ENU7N15C03000145'}
+2021-10-18 15:10:59,817:INFO:Device:Setting logcat buffer size to 57344K
+2021-10-18 15:10:59,902:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "logcat -G 57344K" returned: 
+
+2021-10-18 15:10:59,917:DEBUG:PluginHandler:batterystats: Initialized
+2021-10-18 15:10:59,918:DEBUG:Python3:Imported /home/pi/android-runner/examples/batterystats/Scripts/before_experiment.py
+2021-10-18 15:10:59,918:DEBUG:Python3:Imported /home/pi/android-runner/examples/batterystats/Scripts/before_run.py
+2021-10-18 15:10:59,919:DEBUG:Python3:Imported /home/pi/android-runner/examples/batterystats/Scripts/after_launch.py
+2021-10-18 15:10:59,919:DEBUG:Python3:Imported /home/pi/android-runner/examples/batterystats/Scripts/interaction.py
+2021-10-18 15:10:59,920:DEBUG:Python3:Imported /home/pi/android-runner/examples/batterystats/Scripts/before_close.py
+2021-10-18 15:10:59,920:DEBUG:Python3:Imported /home/pi/android-runner/examples/batterystats/Scripts/after_run.py
+2021-10-18 15:10:59,921:DEBUG:Python3:Imported /home/pi/android-runner/examples/batterystats/Scripts/after_experiment.py
+2021-10-18 15:11:01,164:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "pm list packages" returned: 
+package:com.google.android.youtube
+package:com.android.providers.telephony
+package:com.android.sdm.plugins.connmo
+package:com.google.android.googlequicksearchbox
+package:com.android.providers.calendar
+package:com.android.providers.media
+package:com.huawei.entitlement
+package:com.google.android.apps.docs.editors.docs
+package:com.jrummyapps.rootbrowser.classic
+package:com.google.android.onetimeinitializer
+package:com.android.wallpapercropper
+package:com.quicinc.cne.CNEService
+package:com.android.documentsui
+package:com.android.externalstorage
+package:com.google.android.apps.enterprise.dmagent
+package:com.android.htmlviewer
+package:com.huawei.callstatisticsutils
+package:com.android.mms.service
+package:com.google.android.apps.docs.editors.slides
+package:com.android.providers.downloads
+package:com.google.android.apps.messaging
+package:android.autoinstalls.config.google.nexus
+package:com.google.android.configupdater
+package:com.android.defcontainer
+package:com.android.providers.downloads.ui
+package:com.android.vending
+package:com.android.pacprocessor
+package:com.qualcomm.cabl
+package:com.android.certinstaller
+package:com.android.carrierconfig
+package:com.google.android.marvin.talkback
+package:android
+package:com.android.hotwordenrollment
+package:com.google.android.apps.inputmethod.hindi
+package:com.android.nfc
+package:com.android.stk
+package:com.android.backupconfirm
+package:com.google.android.launcher
+package:com.google.android.deskclock
+package:org.codeaurora.ims
+package:com.android.statementservice
+package:com.google.android.gm
+package:com.android.sdm.plugins.sprintdm
+package:com.google.android.instantapps.supervisor
+package:com.google.android.setupwizard
+package:com.qualcomm.qcrilmsgtunnel
+package:com.android.providers.settings
+package:com.android.sharedstoragebackup
+package:com.google.android.music
+package:com.android.printspooler
+package:com.android.sdm.plugins.diagmon
+package:com.android.dreams.basic
+package:com.android.inputdevices
+package:com.google.android.dialer
+package:com.android.providers.calllogbackup
+package:com.google.android.apps.cloudprint
+package:com.android.musicfx
+package:com.google.android.apps.docs
+package:com.google.android.apps.maps
+package:com.google.android.apps.plus
+package:com.android.cellbroadcastreceiver
+package:com.google.android.webview
+package:com.opera.browser
+package:com.google.android.contacts
+package:com.android.server.telecom
+package:com.google.android.syncadapters.contacts
+package:com.android.facelock
+package:com.android.keychain
+package:com.google.android.gm.exchange
+package:com.google.android.calculator
+package:com.android.chrome
+package:com.google.android.packageinstaller
+package:com.google.android.gms
+package:com.google.android.gsf
+package:com.google.android.tag
+package:com.google.android.tts
+package:com.google.android.apps.walletnfcrel
+package:com.google.android.partnersetup
+package:com.google.android.videos
+package:com.android.proxyhandler
+package:com.google.android.feedback
+package:com.google.android.apps.photos
+package:com.google.android.calendar
+package:com.android.managedprovisioning
+package:com.android.sdm.plugins.dcmo
+package:com.android.providers.partnerbookmarks
+package:com.google.android.gsf.login
+package:com.android.wallpaper.livepicker
+package:com.huawei.mmitest
+package:org.mozilla.firefox
+package:com.google.android.inputmethod.korean
+package:filemanager.fileexplorer.manager
+package:com.google.android.backuptransport
+package:com.android.settings
+package:com.google.android.inputmethod.pinyin
+package:com.google.android.setupwizard.overlay.smartdevice
+package:com.google.android.apps.tycho
+package:com.android.omadm.service
+package:com.huawei.sarcontrolservice
+package:com.android.vpndialogs
+package:com.google.android.keep
+package:com.google.android.talk
+package:com.android.phone
+package:com.android.shell
+package:com.android.providers.userdictionary
+package:com.google.android.inputmethod.japanese
+package:com.android.location.fused
+package:com.android.systemui
+package:com.android.bluetoothmidiservice
+package:com.quicinc.trepn
+package:com.android.huawei.hiddenmenu
+package:com.google.android.launcher.layouts.angler
+package:com.google.android.play.games
+package:com.google.android.apps.gcs
+package:com.android.bluetooth
+package:com.qualcomm.timeservice
+package:com.android.providers.contacts
+package:com.android.captiveportallogin
+package:com.google.android.GoogleCamera
+package:com.google.android.inputmethod.latin
+
+2021-10-18 15:11:01,241:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:11:01,287:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:11:01,288:INFO:WebExperiment:Device: nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+2021-10-18 15:11:01,288:INFO:Profilers:Loading
+2021-10-18 15:11:01,334:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:11:01,383:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:11:01,384:DEBUG:PluginHandler:Batterystats: nexus6p (ENU7N15C03000145, Android 6.0, API level 23): Loading configuration
+2021-10-18 15:11:01,384:INFO:Device:Default unplug
+2021-10-18 15:11:01,430:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:11:01,489:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "dumpsys battery unplug" returned: 
+
+2021-10-18 15:11:01,535:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:11:01,573:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:11:01,574:DEBUG:Scripts:Running hook before_experiment on device nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+args: ()
+kwargs: {}
+2021-10-18 15:11:01,590:INFO:Python3:before_experiment.py
+2021-10-18 15:11:01,593:DEBUG:Python3:before_experiment.py returned None
+2021-10-18 15:11:01,598:INFO:WebExperiment:URL: https://www.google.com
+2021-10-18 15:11:01,599:INFO:Profilers:Setting output
+2021-10-18 15:11:01,600:DEBUG:PluginHandler:Batterystats: Setting output: /home/pi/android-runner/examples/batterystats/output/2021.10.18_151059/data/nexus6p/https-www-google-com/chrome/batterystats
+2021-10-18 15:11:01,600:INFO:WebExperiment:Run 1/1 of subject "https://www.google.com" on nexus6p
+2021-10-18 15:11:01,729:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "logcat -c" returned: 
+
+2021-10-18 15:11:01,730:INFO:WebExperiment:Logcat cleared
+2021-10-18 15:11:01,783:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:11:01,833:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:11:01,834:DEBUG:Scripts:Running hook before_run on device nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+args: ()
+kwargs: {}
+2021-10-18 15:11:01,851:INFO:Python3:before_run.py
+2021-10-18 15:11:01,853:DEBUG:Python3:before_run.py returned None
+2021-10-18 15:11:01,957:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "logcat -c" returned: 
+
+2021-10-18 15:11:01,959:INFO:Chrome:ENU7N15C03000145: Start
+2021-10-18 15:11:03,208:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "am start -S -a android.intent.action.VIEW -n com.android.chrome/com.google.android.apps.chrome.Main --activity-clear-task" returned: 
+Stopping: com.android.chrome
+Starting: Intent { act=android.intent.action.VIEW flg=0x8000 cmp=com.android.chrome/com.google.android.apps.chrome.Main }
+
+2021-10-18 15:11:08,369:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.android.chrome
+
+
+2021-10-18 15:11:08,370:DEBUG:Device:Current activity: com.android.chrome
+2021-10-18 15:11:08,420:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:11:08,470:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:11:08,471:DEBUG:Scripts:Running hook after_launch on device nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+args: ('ENU7N15C03000145', 'com.android.chrome')
+kwargs: {}
+2021-10-18 15:11:08,489:INFO:Python3:after_launch.py
+2021-10-18 15:11:08,491:DEBUG:Python3:after_launch.py returned None
+2021-10-18 15:11:08,497:INFO:Profilers:Start profiling
+2021-10-18 15:11:08,547:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:11:08,596:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:11:08,597:DEBUG:PluginHandler:Batterystats: nexus6p (ENU7N15C03000145, Android 6.0, API level 23): Start profiling
+2021-10-18 15:11:08,706:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "dumpsys batterystats --reset" returned: 
+Battery stats reset.
+
+2021-10-18 15:11:08,718:INFO:Chrome:ENU7N15C03000145: Load URL: https://www.google.com
+2021-10-18 15:11:09,605:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "am start -a android.intent.action.VIEW -n com.android.chrome/com.google.android.apps.chrome.Main -d https://www.google.com" returned: 
+Starting: Intent { act=android.intent.action.VIEW dat=https://www.google.com/... cmp=com.android.chrome/com.google.android.apps.chrome.Main }
+Warning: Activity not started, its current task has been brought to the front
+
+2021-10-18 15:11:14,671:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:11:14,732:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:11:14,733:DEBUG:Scripts:Running hook interaction on device nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+args: (<AndroidRunner.WebExperiment.WebExperiment object at 0xb3860150>, <AndroidRunner.Browsers.Chrome.Chrome object at 0xb37e90b0>)
+kwargs: {}
+2021-10-18 15:11:14,750:INFO:Python3:interaction.py
+2021-10-18 15:11:14,817:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.android.chrome
+
+
+2021-10-18 15:11:14,818:DEBUG:Device:Current activity: com.android.chrome
+2021-10-18 15:11:14,818:DEBUG:Python3:interaction.py returned None
+2021-10-18 15:12:14,884:INFO:Profilers:Stop profiling
+2021-10-18 15:12:14,986:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:12:15,037:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:12:15,038:DEBUG:PluginHandler:Batterystats: nexus6p (ENU7N15C03000145, Android 6.0, API level 23): Stop profiling
+2021-10-18 15:12:15,110:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+com.android.chrome
+
+
+2021-10-18 15:12:15,112:DEBUG:Device:Current activity: com.android.chrome
+2021-10-18 15:12:15,162:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:12:15,214:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:12:15,215:DEBUG:Scripts:Running hook before_close on device nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+args: ('ENU7N15C03000145', 'com.android.chrome')
+kwargs: {}
+2021-10-18 15:12:15,234:INFO:Python3:before_close.py
+2021-10-18 15:12:15,237:DEBUG:Python3:before_close.py returned None
+2021-10-18 15:12:15,243:INFO:Chrome:ENU7N15C03000145: Stop
+2021-10-18 15:12:16,373:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "am force-stop com.android.chrome" returned: 
+
+2021-10-18 15:12:19,438:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:12:19,498:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:12:19,499:DEBUG:Scripts:Running hook after_run on device nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+args: ()
+kwargs: {}
+2021-10-18 15:12:19,515:INFO:Python3:after_run.py
+2021-10-18 15:12:20,113:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "input tap 600 1000" returned: 
+
+2021-10-18 15:12:20,114:DEBUG:Python3:after_run.py returned None
+2021-10-18 15:12:20,123:INFO:Profilers:Collecting results
+2021-10-18 15:12:20,183:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:12:20,237:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:12:20,238:DEBUG:PluginHandler:Batterystats: nexus6p (ENU7N15C03000145, Android 6.0, API level 23): Collecting data
+2021-10-18 15:12:20,279:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:12:20,958:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "logcat -f /mnt/sdcard/logcat.txt -d" returned: 
+
+2021-10-18 15:12:21,194:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "rm -f /mnt/sdcard/logcat.txt" returned: 
+
+2021-10-18 15:12:21,279:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "dumpsys batterystats --history" returned: 
+Battery History (0% used, 144 used of 256KB, 6 strings using 718):
+                    0 (9) RESET:TIME: 2021-10-18-15-11-08
+                    0 (1) 100 status=charging health=good plug=none temp=252 volt=3938 +running +wake_lock +wifi_radio +screen phone_signal_strength=great brightness=medium +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed
+                    0 (2) 100 top=u0a39:"com.android.chrome"
+                    0 (2) 100 job=u0a39:"com.android.chrome/org.chromium.components.background_task_scheduler.internal.BackgroundTaskJobService"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+             +1s711ms (2) 100 -job=u0a39:"com.android.chrome/org.chromium.components.background_task_scheduler.internal.BackgroundTaskJobService"
+            +57s048ms (2) 100 +tmpwhitelist=u0a12:"broadcast:u0a12:com.google.android.intent.action.GCM_RECONNECT"
+            +57s984ms (2) 100 +job=u0a22:"com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain"
+          +1m04s120ms (2) 100 -job=u0a22:"com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain"
+          +1m07s051ms (2) 100 -tmpwhitelist=u0a12:"broadcast:u0a12:com.google.android.intent.action.GCM_RECONNECT"
+          +1m07s434ms (2) 100 -top=u0a39:"com.android.chrome"
+          +1m07s434ms (2) 100 +top=u0a29:"com.google.android.googlequicksearchbox"
+          +1m09s002ms (2) 100 +job=u0a22:"com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain"
+          +1m09s009ms (2) 100 -job=u0a22:"com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain"
+
+
+2021-10-18 15:12:21,487:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "dumpsys batterystats | grep "Computed drain:"" returned: 
+    Capacity: 3450, Computed drain: 10.5, actual drain: 0
+
+2021-10-18 15:12:21,603:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "dumpsys batterystats | grep "volt="" returned: 
+                    0 (1) 100 status=charging health=good plug=none temp=252 volt=3938 +running +wake_lock +wifi_radio +screen phone_signal_strength=great brightness=medium +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed
+
+2021-10-18 15:12:30,643:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "cat /proc/cpuinfo | grep processor | wc -l" returned: 
+8
+
+2021-10-18 15:12:30,682:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:12:36,113:ERROR:WebExperiment:AttributeError: 'NoneType' object has no attribute 'group'
+2021-10-18 15:12:36,208:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "dumpsys battery reset" returned: 
+
+2021-10-18 15:12:36,209:INFO:Profilers:Stop profiling
+2021-10-18 15:12:36,253:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:12:36,293:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:12:36,293:DEBUG:PluginHandler:Batterystats: nexus6p (ENU7N15C03000145, Android 6.0, API level 23): Stop profiling
+2021-10-18 15:12:36,294:INFO:Profilers:Unloading
+2021-10-18 15:12:36,334:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:12:36,374:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:12:36,374:DEBUG:PluginHandler:Batterystats: nexus6p (ENU7N15C03000145, Android 6.0, API level 23): Cleanup
+2021-10-18 15:12:36,374:INFO:Chrome:ENU7N15C03000145: Stop
+2021-10-18 15:12:36,992:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "am force-stop com.android.chrome" returned: 
+
+2021-10-18 15:12:37,746:INFO:AndroidRunner.Adb:ENU7N15C03000145: Data of "com.android.chrome" cleared
+2021-10-18 15:12:37,749:ERROR:root:AttributeError: 'NoneType' object has no attribute 'group'
+2021-10-18 15:12:37,750:ERROR:root:An error occurred, the experiment has been stopped. To continue, add progress file argument to experiment startup: --progress /home/pi/android-runner/examples/batterystats/output/2021.10.18_151059/progress.xml

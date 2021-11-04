@@ -1,0 +1,14 @@
+* NQueens
+** Parameters
+   n = 16
+** Runs
+   11 runs
+
+* CRC
+** Parameters
+   	num_pages = 128;
+	page_size = 65536;
+    num_execs = 150;
+** Runs
+
+   

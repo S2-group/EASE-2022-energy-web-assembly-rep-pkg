@@ -1,0 +1,357 @@
+2021-10-18 15:17:03,216:INFO:ExperimentFactory:/home/pi/android-runner/examples/batterystats/config_web.json
+2021-10-18 15:17:03,261:DEBUG:AndroidRunner.Adb:Device list:
+{0: 'ENU7N15C03000145'}
+2021-10-18 15:17:03,262:INFO:Device:Setting logcat buffer size to 57344K
+2021-10-18 15:17:03,361:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "logcat -G 57344K" returned: 
+
+2021-10-18 15:17:03,376:DEBUG:PluginHandler:batterystats: Initialized
+2021-10-18 15:17:03,377:DEBUG:Python3:Imported /home/pi/android-runner/examples/batterystats/Scripts/before_experiment.py
+2021-10-18 15:17:03,377:DEBUG:Python3:Imported /home/pi/android-runner/examples/batterystats/Scripts/before_run.py
+2021-10-18 15:17:03,378:DEBUG:Python3:Imported /home/pi/android-runner/examples/batterystats/Scripts/after_launch.py
+2021-10-18 15:17:03,378:DEBUG:Python3:Imported /home/pi/android-runner/examples/batterystats/Scripts/interaction.py
+2021-10-18 15:17:03,379:DEBUG:Python3:Imported /home/pi/android-runner/examples/batterystats/Scripts/before_close.py
+2021-10-18 15:17:03,379:DEBUG:Python3:Imported /home/pi/android-runner/examples/batterystats/Scripts/after_run.py
+2021-10-18 15:17:03,380:DEBUG:Python3:Imported /home/pi/android-runner/examples/batterystats/Scripts/after_experiment.py
+2021-10-18 15:17:04,323:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "pm list packages" returned: 
+package:com.google.android.youtube
+package:com.android.providers.telephony
+package:com.android.sdm.plugins.connmo
+package:com.google.android.googlequicksearchbox
+package:com.android.providers.calendar
+package:com.android.providers.media
+package:com.huawei.entitlement
+package:com.google.android.apps.docs.editors.docs
+package:com.jrummyapps.rootbrowser.classic
+package:com.google.android.onetimeinitializer
+package:com.android.wallpapercropper
+package:com.quicinc.cne.CNEService
+package:com.android.documentsui
+package:com.android.externalstorage
+package:com.google.android.apps.enterprise.dmagent
+package:com.android.htmlviewer
+package:com.huawei.callstatisticsutils
+package:com.android.mms.service
+package:com.google.android.apps.docs.editors.slides
+package:com.android.providers.downloads
+package:com.google.android.apps.messaging
+package:android.autoinstalls.config.google.nexus
+package:com.google.android.configupdater
+package:com.android.defcontainer
+package:com.android.providers.downloads.ui
+package:com.android.vending
+package:com.android.pacprocessor
+package:com.qualcomm.cabl
+package:com.android.certinstaller
+package:com.android.carrierconfig
+package:com.google.android.marvin.talkback
+package:android
+package:com.android.hotwordenrollment
+package:com.google.android.apps.inputmethod.hindi
+package:com.android.nfc
+package:com.android.stk
+package:com.android.backupconfirm
+package:com.google.android.launcher
+package:com.google.android.deskclock
+package:org.codeaurora.ims
+package:com.android.statementservice
+package:com.google.android.gm
+package:com.android.sdm.plugins.sprintdm
+package:com.google.android.instantapps.supervisor
+package:com.google.android.setupwizard
+package:com.qualcomm.qcrilmsgtunnel
+package:com.android.providers.settings
+package:com.android.sharedstoragebackup
+package:com.google.android.music
+package:com.android.printspooler
+package:com.android.sdm.plugins.diagmon
+package:com.android.dreams.basic
+package:com.android.inputdevices
+package:com.google.android.dialer
+package:com.android.providers.calllogbackup
+package:com.google.android.apps.cloudprint
+package:com.android.musicfx
+package:com.google.android.apps.docs
+package:com.google.android.apps.maps
+package:com.google.android.apps.plus
+package:com.android.cellbroadcastreceiver
+package:com.google.android.webview
+package:com.opera.browser
+package:com.google.android.contacts
+package:com.android.server.telecom
+package:com.google.android.syncadapters.contacts
+package:com.android.facelock
+package:com.android.keychain
+package:com.google.android.gm.exchange
+package:com.google.android.calculator
+package:com.android.chrome
+package:com.google.android.packageinstaller
+package:com.google.android.gms
+package:com.google.android.gsf
+package:com.google.android.tag
+package:com.google.android.tts
+package:com.google.android.apps.walletnfcrel
+package:com.google.android.partnersetup
+package:com.google.android.videos
+package:com.android.proxyhandler
+package:com.google.android.feedback
+package:com.google.android.apps.photos
+package:com.google.android.calendar
+package:com.android.managedprovisioning
+package:com.android.sdm.plugins.dcmo
+package:com.android.providers.partnerbookmarks
+package:com.google.android.gsf.login
+package:com.android.wallpaper.livepicker
+package:com.huawei.mmitest
+package:org.mozilla.firefox
+package:com.google.android.inputmethod.korean
+package:filemanager.fileexplorer.manager
+package:com.google.android.backuptransport
+package:com.android.settings
+package:com.google.android.inputmethod.pinyin
+package:com.google.android.setupwizard.overlay.smartdevice
+package:com.google.android.apps.tycho
+package:com.android.omadm.service
+package:com.huawei.sarcontrolservice
+package:com.android.vpndialogs
+package:com.google.android.keep
+package:com.google.android.talk
+package:com.android.phone
+package:com.android.shell
+package:com.android.providers.userdictionary
+package:com.google.android.inputmethod.japanese
+package:com.android.location.fused
+package:com.android.systemui
+package:com.android.bluetoothmidiservice
+package:com.quicinc.trepn
+package:com.android.huawei.hiddenmenu
+package:com.google.android.launcher.layouts.angler
+package:com.google.android.play.games
+package:com.google.android.apps.gcs
+package:com.android.bluetooth
+package:com.qualcomm.timeservice
+package:com.android.providers.contacts
+package:com.android.captiveportallogin
+package:com.google.android.GoogleCamera
+package:com.google.android.inputmethod.latin
+
+2021-10-18 15:17:04,404:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:17:04,456:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:17:04,457:INFO:WebExperiment:Device: nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+2021-10-18 15:17:04,459:INFO:Profilers:Loading
+2021-10-18 15:17:04,507:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:17:04,558:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:17:04,558:DEBUG:PluginHandler:Batterystats: nexus6p (ENU7N15C03000145, Android 6.0, API level 23): Loading configuration
+2021-10-18 15:17:04,559:INFO:Device:Default unplug
+2021-10-18 15:17:04,607:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:17:04,669:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "dumpsys battery unplug" returned: 
+
+2021-10-18 15:17:04,723:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:17:04,773:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:17:04,774:DEBUG:Scripts:Running hook before_experiment on device nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+args: ()
+kwargs: {}
+2021-10-18 15:17:04,793:INFO:Python3:before_experiment.py
+2021-10-18 15:17:04,795:DEBUG:Python3:before_experiment.py returned None
+2021-10-18 15:17:04,801:INFO:WebExperiment:URL: https://www.google.com
+2021-10-18 15:17:04,803:INFO:Profilers:Setting output
+2021-10-18 15:17:04,804:DEBUG:PluginHandler:Batterystats: Setting output: /home/pi/android-runner/examples/batterystats/output/2021.10.18_151703/data/nexus6p/https-www-google-com/firefox/batterystats
+2021-10-18 15:17:04,805:INFO:WebExperiment:Run 1/1 of subject "https://www.google.com" on nexus6p
+2021-10-18 15:17:04,935:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "logcat -c" returned: 
+
+2021-10-18 15:17:04,936:INFO:WebExperiment:Logcat cleared
+2021-10-18 15:17:04,987:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:17:05,034:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:17:05,035:DEBUG:Scripts:Running hook before_run on device nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+args: ()
+kwargs: {}
+2021-10-18 15:17:05,046:INFO:Python3:before_run.py
+2021-10-18 15:17:05,047:DEBUG:Python3:before_run.py returned None
+2021-10-18 15:17:05,148:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "logcat -c" returned: 
+
+2021-10-18 15:17:05,149:INFO:Firefox:ENU7N15C03000145: Start
+2021-10-18 15:17:06,079:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "am start -S -a android.intent.action.VIEW -n org.mozilla.firefox/org.mozilla.gecko.BrowserApp --activity-clear-task" returned: 
+Stopping: org.mozilla.firefox
+Starting: Intent { act=android.intent.action.VIEW flg=0x8000 cmp=org.mozilla.firefox/org.mozilla.gecko.BrowserApp }
+
+2021-10-18 15:17:11,283:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+org.mozilla.firefox
+
+
+2021-10-18 15:17:11,284:DEBUG:Device:Current activity: org.mozilla.firefox
+2021-10-18 15:17:11,333:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:17:11,391:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:17:11,392:DEBUG:Scripts:Running hook after_launch on device nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+args: ('ENU7N15C03000145', 'org.mozilla.firefox')
+kwargs: {}
+2021-10-18 15:17:11,408:INFO:Python3:after_launch.py
+2021-10-18 15:17:11,410:DEBUG:Python3:after_launch.py returned None
+2021-10-18 15:17:11,416:INFO:Profilers:Start profiling
+2021-10-18 15:17:11,469:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:17:11,518:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:17:11,519:DEBUG:PluginHandler:Batterystats: nexus6p (ENU7N15C03000145, Android 6.0, API level 23): Start profiling
+2021-10-18 15:17:11,624:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "dumpsys batterystats --reset" returned: 
+Battery stats reset.
+
+2021-10-18 15:17:11,637:INFO:Firefox:ENU7N15C03000145: Load URL: https://www.google.com
+2021-10-18 15:17:12,709:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "am start -a android.intent.action.VIEW -n org.mozilla.firefox/org.mozilla.gecko.BrowserApp -d https://www.google.com" returned: 
+Starting: Intent { act=android.intent.action.VIEW dat=https://www.google.com/... cmp=org.mozilla.firefox/org.mozilla.gecko.BrowserApp }
+
+2021-10-18 15:17:17,836:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:17:17,886:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:17:17,887:DEBUG:Scripts:Running hook interaction on device nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+args: (<AndroidRunner.WebExperiment.WebExperiment object at 0xb38bc070>, <AndroidRunner.Browsers.Firefox.Firefox object at 0xb3842090>)
+kwargs: {}
+2021-10-18 15:17:17,906:INFO:Python3:interaction.py
+2021-10-18 15:17:18,001:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+org.mozilla.firefox
+
+
+2021-10-18 15:17:18,002:DEBUG:Device:Current activity: org.mozilla.firefox
+2021-10-18 15:17:18,003:DEBUG:Python3:interaction.py returned None
+2021-10-18 15:18:18,069:INFO:Profilers:Stop profiling
+2021-10-18 15:18:18,131:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:18:18,189:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:18:18,190:DEBUG:PluginHandler:Batterystats: nexus6p (ENU7N15C03000145, Android 6.0, API level 23): Stop profiling
+2021-10-18 15:18:18,256:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "dumpsys activity recents | grep "Recent #0" | cut -d "=" -f2 | grep -o -p "[a-z|.]*"" returned: 
+org.mozilla.firefox
+
+
+2021-10-18 15:18:18,257:DEBUG:Device:Current activity: org.mozilla.firefox
+2021-10-18 15:18:18,305:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:18:18,354:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:18:18,355:DEBUG:Scripts:Running hook before_close on device nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+args: ('ENU7N15C03000145', 'org.mozilla.firefox')
+kwargs: {}
+2021-10-18 15:18:18,372:INFO:Python3:before_close.py
+2021-10-18 15:18:18,373:DEBUG:Python3:before_close.py returned None
+2021-10-18 15:18:18,379:INFO:Firefox:ENU7N15C03000145: Stop
+2021-10-18 15:18:19,722:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "am force-stop org.mozilla.firefox" returned: 
+
+2021-10-18 15:18:22,785:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:18:22,838:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:18:22,839:DEBUG:Scripts:Running hook after_run on device nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+args: ()
+kwargs: {}
+2021-10-18 15:18:22,856:INFO:Python3:after_run.py
+2021-10-18 15:18:23,609:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "input tap 600 1000" returned: 
+
+2021-10-18 15:18:23,610:DEBUG:Python3:after_run.py returned None
+2021-10-18 15:18:23,619:INFO:Profilers:Collecting results
+2021-10-18 15:18:23,689:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:18:23,739:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:18:23,740:DEBUG:PluginHandler:Batterystats: nexus6p (ENU7N15C03000145, Android 6.0, API level 23): Collecting data
+2021-10-18 15:18:23,788:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:18:23,933:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "logcat -f /mnt/sdcard/logcat.txt -d" returned: 
+
+2021-10-18 15:18:24,037:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "rm -f /mnt/sdcard/logcat.txt" returned: 
+
+2021-10-18 15:18:24,198:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "dumpsys batterystats --history" returned: 
+Battery History (0% used, 80 used of 256KB, 3 strings using 160):
+                    0 (9) RESET:TIME: 2021-10-18-15-17-11
+                    0 (1) 100 status=charging health=good plug=none temp=267 volt=4268 +running +wake_lock +wifi_radio +screen phone_signal_strength=great brightness=medium +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed
+                    0 (2) 100 top=u0a80:"org.mozilla.firefox"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+          +1m07s887ms (2) 100 -top=u0a80:"org.mozilla.firefox"
+          +1m07s887ms (2) 100 +top=u0a29:"com.google.android.googlequicksearchbox"
+
+
+2021-10-18 15:18:24,325:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "dumpsys batterystats | grep "Computed drain:"" returned: 
+    Capacity: 3450, Computed drain: 11.6, actual drain: 0
+
+2021-10-18 15:18:24,415:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "dumpsys batterystats | grep "volt="" returned: 
+                    0 (1) 100 status=charging health=good plug=none temp=267 volt=4268 +running +wake_lock +wifi_radio +screen phone_signal_strength=great brightness=medium +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed
+
+2021-10-18 15:18:28,779:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "cat /proc/cpuinfo | grep processor | wc -l" returned: 
+8
+
+2021-10-18 15:18:28,859:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:18:40,341:INFO:WebExperiment:Sleeping for 120000 milliseconds
+2021-10-18 15:20:40,443:INFO:Profilers:Start subject aggregation
+2021-10-18 15:20:40,443:DEBUG:PluginHandler:%s: aggregating subject results
+2021-10-18 15:20:40,446:INFO:WebExperiment:Experiment completed, start cleanup
+2021-10-18 15:20:40,536:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:20:40,599:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:20:40,600:DEBUG:Scripts:Running hook after_experiment on device nexus6p (ENU7N15C03000145, Android 6.0, API level 23)
+args: ()
+kwargs: {}
+2021-10-18 15:20:40,617:INFO:Python3:after_experiment.py
+2021-10-18 15:20:40,619:DEBUG:Python3:after_experiment.py returned None
+2021-10-18 15:20:40,709:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "dumpsys battery reset" returned: 
+
+2021-10-18 15:20:40,710:INFO:Profilers:Stop profiling
+2021-10-18 15:20:40,759:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:20:40,808:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:20:40,809:DEBUG:PluginHandler:Batterystats: nexus6p (ENU7N15C03000145, Android 6.0, API level 23): Stop profiling
+2021-10-18 15:20:40,809:INFO:Profilers:Unloading
+2021-10-18 15:20:40,855:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.release" returned: 
+6.0
+
+2021-10-18 15:20:40,891:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "getprop ro.build.version.sdk" returned: 
+23
+
+2021-10-18 15:20:40,891:DEBUG:PluginHandler:Batterystats: nexus6p (ENU7N15C03000145, Android 6.0, API level 23): Cleanup
+2021-10-18 15:20:40,892:INFO:Firefox:ENU7N15C03000145: Stop
+2021-10-18 15:20:41,670:DEBUG:AndroidRunner.Adb:ENU7N15C03000145: "am force-stop org.mozilla.firefox" returned: 
+
+2021-10-18 15:20:42,455:INFO:AndroidRunner.Adb:ENU7N15C03000145: Data of "org.mozilla.firefox" cleared
+2021-10-18 15:20:42,456:INFO:Profilers:Start final aggregation
+2021-10-18 15:20:42,457:DEBUG:PluginHandler:%s: aggregating results

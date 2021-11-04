@@ -1,0 +1,5 @@
+2021-10-23 08:11:51,233:INFO:ExperimentFactory:/home/pi/external_memory/android-runner/experiment/config_web.json
+2021-10-23 08:11:51,279:DEBUG:AndroidRunner.Adb:Device list:
+{0: 'ENU7N15C03000145'}
+2021-10-23 08:11:51,280:ERROR:root:ConnectionError: 52004f53fe46357d: Device not recognized
+2021-10-23 08:11:51,280:ERROR:root:An error occurred, the experiment has been stopped. To continue, add progress file argument to experiment startup: --progress  No progress file created
