@@ -173,40 +173,132 @@ check_normality <- function(input_data) {
   shapiro.test(input_data)
 }
 
-#shapiro wilk RQ1
-js_data$consumption %>%
-  check_normality
-wasm_data$consumption %>%
+#Chrome Javascript normality checks
+b1_js_data <- js_data %>%
+  filter(algorithm == 'nqueens')
+b1_js_data$consumption %>%
+  check_normality 
+b2_js_data <- js_data %>%
+  filter(algorithm == 'lavamd')
+b2_js_data$consumption %>%
+  check_normality 
+b3_js_data <- js_data %>%
+  filter(algorithm == 'page-rank')
+b3_js_data$consumption %>%
+  check_normality 
+b4_js_data <- js_data %>%
+  filter(algorithm == 'hmm')
+b4_js_data$consumption %>%
+  check_normality 
+b5_js_data <- js_data %>%
+  filter(algorithm == 'nw')
+b5_js_data$consumption %>%
+  check_normality 
+b6_js_data <- js_data %>%
+  filter(algorithm == 'fft')
+b6_js_data$consumption %>%
+  check_normality 
+b7_js_data <- js_data %>%
+  filter(algorithm == 'lud')
+b7_js_data$consumption %>%
+  check_normality 
+
+#Chrome WebAssembly normality checks
+b1_wasm_data <- wasm_data %>%
+  filter(algorithm == 'nqueens')
+b1_wasm_data$consumption %>%
+  check_normality 
+b2_wasm_data <- wasm_data %>%
+  filter(algorithm == 'lavamd')
+b2_wasm_data$consumption %>%
+  check_normality 
+b3_wasm_data <- wasm_data %>%
+  filter(algorithm == 'page-rank')
+b3_wasm_data$consumption %>%
+  check_normality 
+b4_wasm_data <- wasm_data %>%
+  filter(algorithm == 'hmm')
+b4_wasm_data$consumption %>%
+  check_normality 
+b5_wasm_data <- wasm_data %>%
+  filter(algorithm == 'nw')
+b5_wasm_data$consumption %>%
+  check_normality 
+b6_wasm_data <- wasm_data %>%
+  filter(algorithm == 'fft')
+b6_wasm_data$consumption %>%
+  check_normality 
+b7_wasm_data <- wasm_data %>%
+  filter(algorithm == 'lud')
+b7_wasm_data$consumption %>%
   check_normality
 
-#shapiro wilk RQ2
-chrome_js_data$consumption %>%
-  check_normality
-chrome_wasm_data$consumption %>%
-  check_normality
-firefox_js_data$consumption %>%
-  check_normality
-firefox_wasm_data$consumption %>%
+#Firefox Javascript normality checks
+b1_js_data <- js_data %>%
+  filter(algorithm == 'nqueens')
+b1_js_data$consumption %>%
+  check_normality 
+b2_js_data <- js_data %>%
+  filter(algorithm == 'lavamd')
+b2_js_data$consumption %>%
+  check_normality 
+b3_js_data <- js_data %>%
+  filter(algorithm == 'page-rank')
+b3_js_data$consumption %>%
+  check_normality 
+b4_js_data <- js_data %>%
+  filter(algorithm == 'hmm')
+b4_js_data$consumption %>%
+  check_normality 
+b5_js_data <- js_data %>%
+  filter(algorithm == 'nw')
+b5_js_data$consumption %>%
+  check_normality 
+b6_js_data <- js_data %>%
+  filter(algorithm == 'fft')
+b6_js_data$consumption %>%
+  check_normality 
+b7_js_data <- js_data %>%
+  filter(algorithm == 'lud')
+b7_js_data$consumption %>%
+  check_normality 
+
+#Firefox WebAssembly normality checks
+b1_wasm_data <- firefox_js_data %>%
+  filter(algorithm == 'nqueens')
+b1_wasm_data$consumption %>%
+  check_normality 
+b2_wasm_data <- firefox_js_data %>%
+  filter(algorithm == 'lavamd')
+b2_wasm_data$consumption %>%
+  check_normality 
+b3_wasm_data <- firefox_js_data %>%
+  filter(algorithm == 'page-rank')
+b3_wasm_data$consumption %>%
+  check_normality 
+b4_wasm_data <- firefox_js_data %>%
+  filter(algorithm == 'hmm')
+b4_wasm_data$consumption %>%
+  check_normality 
+b5_wasm_data <- firefox_js_data %>%
+  filter(algorithm == 'nw')
+b5_wasm_data$consumption %>%
+  check_normality 
+b6_wasm_data <- firefox_js_data %>%
+  filter(algorithm == 'fft')
+b6_wasm_data$consumption %>%
+  check_normality 
+b7_wasm_data <- firefox_js_data %>%
+  filter(algorithm == 'lud')
+b7_wasm_data$consumption %>%
   check_normality
 
-#RQ1 try to transform
-js_data$consumption_log %>%
-  check_normality
-js_data$consumption_sqrt %>%
-  check_normality
-js_data$consumption_reciprocal %>%
-  check_normality
-wasm_data$consumption_log %>%
-  check_normality
-wasm_data$consumption_sqrt %>%
-  check_normality
-wasm_data$consumption_reciprocal %>%
-  check_normality
-rq1_data$consumption %>%
-  check_normality
+############################################
+# Normalize data (DELETE?)
+############################################
 
 library(bestNormalize)
-
+?bestNormalize
 #RQ1
 js_best_norm_consumption <- bestNormalize(js_data$consumption)
 js_best_norm_consumption
