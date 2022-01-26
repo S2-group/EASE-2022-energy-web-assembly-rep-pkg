@@ -1,5 +1,5 @@
 # Greenlab replication package
-This is the replication package for the VU Amsterdam Greenlab study "Comparing the energy efficiency of WebAssembly versus JavaScript in web-applications on Android devices".
+This is the replication package for the study "Comparing the energy efficiency of WebAssembly versus JavaScript in web-applications on Android devices".
 
 This experiment made use of the Ostrich benchmarking suite, which can be found [here](https://github.com/Sable/Ostrich). All copyrights of these benchmarking algorithms belong to the license holders of the Ostrich benchmarking suite.
 

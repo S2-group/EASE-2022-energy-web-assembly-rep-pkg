@@ -6,7 +6,7 @@ library(tidyverse)
 
 #load data from csv file
 exp_data <- read_csv(
-  "C:/Users/sasja/OneDrive - Vrije Universiteit Amsterdam/Dokumente/Master Computer Science/Green Lab/results.csv")
+  "/home/pi/hippiescripters/results.csv")
 
 #Data RQ1: only Chrome as browser
 rq1_data <- exp_data %>%
