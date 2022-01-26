@@ -1,12 +1,12 @@
 ############################################
-# R script HippieScripters
+# R script 
 ############################################
 
 library(tidyverse)
 
 #load data from csv file
 exp_data <- read_csv(
-  "/home/pi/hippiescripters/results.csv")
+  "/home/pi/project/results.csv")
 
 #Data RQ1: only Chrome as browser
 rq1_data <- exp_data %>%
