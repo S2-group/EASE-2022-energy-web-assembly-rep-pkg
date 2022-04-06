@@ -405,6 +405,25 @@ bp <- ggplot(rq1_data, aes(x=language, y=consumption,
   )
 bp
 
+#create grouped boxplot [updated]
+bp_g <- ggplot(rq1_data, aes(x=algorithm, y=consumption,
+                           fill=language, show.legend=F)) +
+  theme_bw() +
+  xlab('Benchmark functions') + ylab('Energy consumption (J)') +
+  geom_boxplot() +
+  labs(fill='Language') +
+  stat_summary(fun=mean, color='black', geom='point', 
+               shape=5, size=0.5, 
+               position=position_dodge(width=0.75), show.legend = F) +
+  scale_fill_discrete(labels=c("JavaScript", "WebAssembly")) +
+  theme(
+    strip.text.x = element_text(size=fontSize),
+    strip.text.y = element_text(size=fontSize),
+    axis.text.x = element_text(size=fontSize),
+    axis.text.y = element_text(size=fontSize),
+  )
+bp_g
+
 bp_general <- ggplot(data = rq1_data, aes(y = consumption)) +
   theme_bw() +
   ylab('Energy consumption (J)') +
