@@ -1,7 +1,10 @@
-# Greenlab replication package
-This is the replication package for the study "Comparing the energy efficiency of WebAssembly versus JavaScript in web-applications on Android devices".
+# EASE 2022 Replication Package
+This repository contains the replication package of the paper titled Comparing the Energy Efficiency of WebAssembly and
+JavaScript in Web Applications on Android Mobile Devices and published at the 25th International Conference on Evaluation and Assessment in Software Engineering (EASE 2022).
 
 This experiment made use of the Ostrich benchmarking suite, which can be found [here](https://github.com/Sable/Ostrich). All copyrights of these benchmarking algorithms belong to the license holders of the Ostrich benchmarking suite.
+
+The full dataset including raw data, data analysis scripts and automatization scripts produced during the study are available below.
 
 ## Structure of the replication package
 This replication package contains several directories. The `experiment` contains the Android Runner configuration, the scripts that were used during the experiment and the subjects. The `android-runner` directory contains an altered version of Android Runner. This is Android Runner with added support for the Firefox Nightly web browser. The results package contains the unprocessed results of the experiment and a Python script to aggregate the results and calculate the Joules used per run. The `figures` directory contains all the figures presented in the paper. The `rscripts` directory contains the R file used to analyse the results.
